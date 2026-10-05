@@ -280,4 +280,4 @@ Built for [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) us
 settings. Written in [Python](https://www.python.org/) (standard library only), with a
 [PowerShell](https://learn.microsoft.com/powershell/) installer. Not made by or affiliated with Anthropic.
 
-Context Guard is an original project by DaffyDabz. All rights reserved for now.
+Context Guard is an original project by DaffyDabz, released under the [MIT License](LICENSE).
