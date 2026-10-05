@@ -1,0 +1,14 @@
+{
+  "_comment": "Context Guard budgets. Tokens are Claude Code usage counters. context = input+cache_read+cache_creation of the last assistant turn (what every further turn re-sends). Raise a limit only on purpose; set enabled=false to switch the guard off. Prompt prefix '!!' lifts a block for override_minutes. log_path is relative to this folder unless absolute; empty string disables the log.",
+  "enabled": true,
+  "context_warn_tokens": 120000,
+  "context_block_tokens": 180000,
+  "session_turns_warn": 300,
+  "session_turns_block": 600,
+  "session_total_warn_tokens": 150000000,
+  "session_total_block_tokens": 300000000,
+  "daily_total_warn_tokens": 600000000,
+  "daily_total_block_tokens": 1000000000,
+  "log_path": "state/guard.jsonl",
+  "override_minutes": 15
+}

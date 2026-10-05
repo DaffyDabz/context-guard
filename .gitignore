@@ -1,0 +1,5 @@
+
+state/
+__pycache__/
+*.bak
+*.bak2
